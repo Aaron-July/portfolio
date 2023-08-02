@@ -1,3 +1,5 @@
+/* MEDIA QUERIES */
+/* Media query for max-width 1400px */
 @media screen and (max-width: 1400px) {
   #profile {
     height: 83vh;
@@ -8,6 +10,7 @@
   }
 }
 
+/* Media query for max-width 1200px */
 @media screen and (max-width: 1200px) {
   #desktop-nav {
     display: none;
@@ -38,11 +41,19 @@
     height: 275px;
     margin: 0 auto 2rem;
   }
+
+  #about_section__pic-container {
+    width: 230px;
+    height: 278px;
+    margin: 0 auto 2rem;
+  }
+
   .about-containers {
     margin-top: 0;
   }
 }
 
+/* Media query for max-width 600px */
 @media screen and (max-width: 600px) {
   /* CONTACT AND FOOTER SECTIONS */
   #contact,
@@ -84,7 +95,9 @@
   .section__pic-container.profile-pic {
     width: auto;
     height: 46vw;
-    justify-content: center;
+    display: flex;
+    justify-content: center; /* Horizontally center the image */
+    align-items: center; /* Vertically center the image */
   }
 
   /* OTHER SECTIONS */
