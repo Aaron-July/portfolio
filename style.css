@@ -59,28 +59,20 @@ a:hover {
   align-items: center;
 }
 
-.logo i {
-  height: 45px;
-  width: 45px;
-  background-color: #007ced;
-  border-radius: 50%;
-  color: #fff;
-  font-weight: 700;
-  font-weight: 1.5rem;
-  padding: 10px;
-  cursor: pointer;
-  text-align: center;
+.logo span {
+  color: rgb(226, 18, 60);
 }
 
-.logo .logo-text {
-  font-size: 24px;
-  font-weight: 500;
 
+.logo h1 {
+  font-size: 38px;
+  font-weight: 700;
 }
 
 .logo:hover {
   cursor: default;
 }
+
 
 /* HAMBURGER MENU */
 
