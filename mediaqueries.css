@@ -8,6 +8,10 @@
   .about-containers {
     flex-wrap: wrap;
   }
+  #contact {
+    height: 80vh;
+    padding: 1rem 0;
+  }
 }
 
 /* Media query for max-width 1200px */
@@ -41,6 +45,13 @@
     height: 275px;
     margin: 0 auto 2rem;
   }
+  #about {
+    margin-bottom: 5rem;
+  }
+
+  #experience {
+    margin-bottom: 5rem;
+  }
 
   #about_section__pic-container {
     width: 230px;
@@ -61,9 +72,8 @@
 /* Media query for max-width 600px */
 @media screen and (max-width: 600px) {
   /* CONTACT AND FOOTER SECTIONS */
-  #contact,
-  footer {
-    height: auto;
+  #contact {
+    height: 76vh;
     padding: 1rem 0;
   }
 
