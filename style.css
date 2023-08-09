@@ -153,7 +153,6 @@ a:hover {
 /* SECTIONS */
 
 section {
-  padding-top: 4vh;
   height: 96vh;
   margin: 0 10rem;
   box-sizing: border-box;
@@ -258,6 +257,13 @@ section {
   gap: 1rem;
 }
 
+#see-more {
+  font-weight: 900;
+  transition: all 300ms ease;
+  padding: 1rem;
+  width: 10rem;
+  border-radius: 2rem;
+}
 /* ICONS */
 
 .icon {
@@ -363,6 +369,7 @@ article .icon {
   cursor: default;
 }
 
+/* Apply these styles to your existing CSS */
 /* PROJECTS SECTION */
 
 #projects {
@@ -370,9 +377,28 @@ article .icon {
 }
 
 .color-container {
+  background: rgb(250, 250, 250);
+}
+
+.carousel-container {
+  overflow: hidden;
+  position: relative;
+  margin-top: 20px;
+  display: flex; /* Ensure items are in a row */
+  transition: transform 0.5s ease-in-out; /* Enable smooth transition */
+}
+
+.carousel {
+  display: flex; /* Display items side by side */
+  transition: transform 0.5s ease-in-out; /* Enable smooth transition */
+}
+
+.carousel-item {
+  flex: 0 0 100%; /* Set the width of each item */
   border-color: rgb(163, 163, 163);
   background: rgb(250, 250, 250);
 }
+
 
 .project-img {
   border-radius: 2rem;
@@ -389,6 +415,7 @@ article .icon {
   color: black;
   border-color: rgb(163, 163, 163);
 }
+
 
 /* CONTACT SECTION */
 
