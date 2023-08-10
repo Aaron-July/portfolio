@@ -103,8 +103,8 @@
 
   /* PROFILE SECTION */
   #profile {
-    height: 83vh;
-    margin-bottom: 0;
+    height: 80vh;
+    margin-bottom: 5rem;
   }
 
   .section__pic-container.profile-pic {
